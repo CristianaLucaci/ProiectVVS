@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>WEB server test project</title>
+ <link rel="stylesheet" type="text/css" href="style_base.css">
+ <link rel="icon" href="data:,">
+
+ </head>
+<body> 
+	<center>
+		<h1 title="titlu: h1 centrat"> WEB server test project</h1> 
+		<p title ="paragraf: p centrat"> pagina principala:</p>   	
+	</center>
+	
+	<h2>background albastru deschis si subtitlu h2 maro setat in: <a style="color: red"> style_base.css</a></h2>
+
+	<h2 title="subtitlu: h2">legatura externa: <a href="https:\\www.google.ro">Pagina Google</a></h2>
+	<h2 title="subtitlu: h2">legatura relativa spre o pagina din acelas director: <a href="ptest1.html">Pagina "ptest1"</a></h2>
+	<h2 title="subtitlu: h2">legatura generala spre o pagina din acelas director: <a href="/ptest1.html">Pagina "ptest1"</a></h2>
+	<h2 title="subtitlu: h2">legatura relativa spre o pagina dintr-un subdirector: <a href="FOLDER_A/a 1.html">Pagina "A/a 1"</a></h2>
+		<h2 title="subtitlu: h2">legatura relativa spre o pagina dintr-un subdirector: <a href="FOLDER_A/a%20.html">Pagina "A/a20"</a></h2>
+	<h2 title="subtitlu: h2">legatura spre o pagina dintr-un subdirector: <a href="FOLDER_A/ptest1.html">Pagina "A/ptest1"</a></h2>
+	
+<form method="GET" >
+  <div>
+    <label >Introduceti un nume</label>
+    <input type="text" name="nume" id="nume" placeholder="" ></input>
+  </div>
+
+  <div>
+    <button id="sendButton" >Record</button>
+  </div>
+</form>
+
+
+	<h3>
+		<p>Afisare imagini:</p>
+		<p><img id="jpg1" src="img1.jpg" alt="Imagine jpg"> <img id="gif1" src="img2.gif" alt="Imagine gif"></p>
+	</h3>
+
+</body>
+</html>
